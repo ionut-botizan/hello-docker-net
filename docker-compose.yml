@@ -12,15 +12,11 @@ services:
 
   hello-docker-app-1:
     image: ionutbotizan/hello-docker-app
-    ports:
-      - "8001:8080"
     environment:
       - INSTANCE_NO=1
 
   hello-docker-app-2:
     image: ionutbotizan/hello-docker-app
-    ports:
-      - "8002:8080"
     environment:
       - INSTANCE_NO=2
 
