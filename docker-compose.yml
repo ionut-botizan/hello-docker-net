@@ -9,6 +9,7 @@ services:
     depends_on:
       - hello-docker-app-1
       - hello-docker-app-2
+      - hello-world
 
   hello-docker-app-1:
     image: ionutbotizan/hello-docker-app
